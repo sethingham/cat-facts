@@ -19,6 +19,13 @@ body {
   padding: 15px;
   margin: auto;
 }
+
+.h3 {
+  color: blueviolet !important;
+  padding-bottom: 5px;
+  border-bottom: #d3d3d3 thin solid;
+}
+
 #getFacts .form-control {
   position: relative;
   box-sizing: border-box;
@@ -30,6 +37,10 @@ body {
 
 #getFacts .form-control:focus {
   z-index: 2;
+}
+
+form .error {
+  color: #ff0000;
 }
 
 .btn-primary {
@@ -44,10 +55,11 @@ body {
   border-color: rgb(102, 32, 167);
 }
 
-.h3 {
-  color: blueviolet !important;
-}
-
 #showFacts {
   text-align: left;
+}
+
+.aFact {
+  border-bottom: #d3d3d3 thin solid;
+  padding-bottom: 5px;
 }
