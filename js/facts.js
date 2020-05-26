@@ -44,7 +44,7 @@ $(document).ready(function () {
 function getFacts() {
   var theNumber = $('#numberOfFacts').val();
 
-  var api = 'https://catfact.ninja/facts?limit=' + theNumber;
+  var api = 'api/?count=' + theNumber;
 
   var factsHTML = '';
 
