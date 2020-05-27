@@ -6,7 +6,7 @@
 $numberOfFacts = validate($_GET["count"]);
 
 header('Content-type: application/json');
-readfile("https://catfact.ninja/facts?limit=" . $numberOfFacts);
+echo readfile("https://catfact.ninja/facts?limit=" . $numberOfFacts);
 
 //make sure it's an int greater than zero
 //if it's not, give 1 cat fact
